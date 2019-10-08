@@ -1,14 +1,15 @@
 <svg id="root">
   <rect class="background" id="background" pointer-events="visible">
+      <line x1="0%" y1="0%" x2="0%" y2="0%" stroke-width="3" id="batteryIndicator" class="hide" />
       <text id="hours" text-length="20" class="colored" />
       <text id="minutes" text-length="20" class="contrasted" />
       <text id="ampm" text-length="20" class="colored" />
-      <line x1="5%" y1="60%" x2="95%" y2="60%" stroke-width="3" id="sep" class="colored hide" />
-      <image href="icons/stat_hr_solid_24px.png" y="63%" x="20%-24" width="18" height="18" class="colored hide" />
+      <line id="sep" x1="4%" y1="55%" x2="96%" y2="55%" stroke-width="3" class="colored hide" />
+      <image href="icons/stat_hr_solid_24px.png" y="62%" x="18%-28" width="22" height="22" class="colored hide" />
       <text id="hr" text-length="3" class="sensor contrasted hide" />
-      <image href="icons/stat_steps_solid_24px.png" y="63%" x="50%-24" width="18" height="18" class="colored hide" />
+      <image href="icons/stat_steps_solid_24px.png" y="62%" x="45%-28" width="22" height="22" class="colored hide" />
       <text id="steps" text-length="6" class="sensor contrasted hide" />
-      <image href="icons/stat_cals_solid_24px.png" y="63%" x="80%-24" width="18" height="18" class="colored hide" />
+      <image href="icons/stat_cals_solid_24px.png" y="62%" x="78%-28" width="22" height="22" class="colored hide" />
       <text id="cals" text-length="6" class="sensor contrasted hide" />
       <text id="day" text-length="3" class="colored hide" />
       <text id="date" text-length="5" class="contrasted hide" />

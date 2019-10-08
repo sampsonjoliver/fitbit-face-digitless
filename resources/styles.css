@@ -1,82 +1,85 @@
 .background {
-    fill: black;
+  fill: black;
 }
 
 #background {
-    width: 100%;
-    height: 100%;
+  width: 100%;
+  height: 100%;
 }
 
 #hours {
-    font-size: 55;
-    font-family: Seville-Bold-Condensed;
-    text-length: 20;
-    x: 5%;
-    y: 43%;
+  font-size: 65;
+  font-family: Seville-Bold-Condensed;
+  text-length: 20;
+  x: 5%;
+  y: 33%;
 }
 
 #minutes {
-    font-size: 45;
-    font-family: Seville-Condensed;
-    text-anchor: start;
-    x: 5%;
-    y: $-25;
+  font-size: 50;
+  font-family: Seville-Condensed;
+  text-anchor: start;
+  x: 5%;
+  y: $-25;
 }
 
 #ampm {
-    font-size: 45;
-    font-family: Seville-Condensed;
-    text-length: 2;
-    text-anchor: end;
-    x: 95%;
-    y: $-50;
+  font-size: 50;
+  font-family: Seville-Condensed;
+  text-length: 2;
+  text-anchor: end;
+  x: 95%;
+  y: $-55;
 }
 
 #day {
-    font-size: 25;
-    font-family: Seville-Bold-Condensed;
-    text-length: 3;
-    text-anchor: end;
-    x: 50%;
-    y: 90%;
+  font-size: 32;
+  font-family: Seville-Bold-Condensed;
+  text-length: 3;
+  text-anchor: end;
+  x: 50%;
+  y: 90%;
 }
 
 #date {
-    font-size: 20;
-    font-family: Colfax-Regular;
-    text-length: 5;
-    text-anchor: start;
-    x: 50%;
-    y: 90%+1;
+  font-size: 25;
+  font-family: Colfax-Regular;
+  text-length: 5;
+  text-anchor: start;
+  x: 50%;
+  y: 90%+1;
 }
 
 #hr {
-    y: 68%;
-    x: 20%-2;
+  font-size: 22;
+  y: 68%;
+  x: 18%-2;
 }
 
 #steps {
-    y: 68%;
-    x: 50%-2;
+  font-size: 22;
+  y: 68%;
+  x: 45%-2;
 }
 
 #cals {
-    y: 68%;
-    x: 80%-2;
+  font-size: 22;
+  y: 68%;
+  x: 77%-2;
 }
 
 .sensor {
-    font-size: 18;
+  font-size: 24;
 }
 
 .colored {
-    fill: fb-aqua;
+  fill: fb-aqua;
 }
 
 .contrasted {
-    fill: fb-white;
+  fill: fb-white;
 }
 
 .hide {
-    opacity: 0;
+  opacity: 0;
 }
